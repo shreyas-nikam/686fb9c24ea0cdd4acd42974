@@ -273,7 +273,7 @@ The core logic will be encapsulated in Python functions, but their internal impl
 
 *   The notebook's scope is strictly limited to Moving Average (MA) models of order 1 (MA(1)) and order 2 (MA(2)), as specified in the requirements. No other time series models (e.g., AR, ARMA, ARIMA) will be covered or implemented.
 *   No deployment-specific instructions or code (e.g., for Streamlit, Dash, etc.) will be included. The notebook is designed for local execution within a Jupyter environment.
-*   All mathematical content must strictly adhere to LaTeX formatting rules: `$$...$$` for display equations (centered, on their own line) and `$...$` for inline equations (within text).
+*   All mathematical content must strictly adhere to LaTeX formatting rules: `\$\$...\$\$` for display equations (centered, on their own line) and `\$...\$` for inline equations (within text).
 *   No executable Python code should be written directly within this specification document, only function signatures and conceptual descriptions.
 
 ### 4.3. Customization and User Interaction
